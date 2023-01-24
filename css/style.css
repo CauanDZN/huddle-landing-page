@@ -82,6 +82,9 @@ h2 {
   box-shadow: 3px 2px 12px 1px #cecacabb;
   border-radius: 30px;
 }
+.header .nav .nav-link:hover{
+  color: #7a8183;
+}
 
 
 /*style Section Build*/
@@ -128,6 +131,10 @@ h2 {
   text-align: center;
   font-size: 14px;
   font-weight: 600;
+}
+.hero-section .btn:hover{
+  color:#f3efef ;
+  background-color: #fd99d8;
 }
 .hero-section .hero-img-box {
   flex: 1;
