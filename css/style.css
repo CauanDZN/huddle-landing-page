@@ -67,6 +67,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 0 20px;
 }
 
 .header .nav .nav-img {
@@ -100,6 +101,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   max-width: 1240px;
+  padding: 0 20px;
 }
 
 .hero-section .hero-text-box {
@@ -125,6 +127,7 @@ h2 {
 .btn{
   background-color: #ff52bf;
   color:  #eee8e8;
+  width: 100%;
   max-width: 280px;
   padding: 19px 0;
   border-radius: 40px;
@@ -153,7 +156,10 @@ flex-direction: column;
 justify-content: start;
 align-items: center;
 width: 100vw;
+height: 100%;
 max-width: 1240px;
+
+padding: 0 20px;
 }
 .features-section:first-child{
   margin-top: 150px;
@@ -212,8 +218,49 @@ max-width: 1240px;
   padding: 24px 0;
   color: #f3f1f1;
 }
-@media (max-width: 72em) {
-  html {
-    font-size: 50%;
+@media (max-width: 740px) {
+  .home{
+    height: 100%;
+
   }
+  .hero-section{
+    height: 100%;
+  }
+  .header {
+    margin-bottom: 80px;
+  }
+  .header .nav .nav-img{
+    max-width: 118px;
+ }
+ .header .nav .nav-link{
+  padding: 6px 26px;
+ }
+ .hero-section .hero-grid{
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+ }
+ .hero-section .hero-text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 80px;
+  margin-right: 0;
+  text-align: center;
+ }
+ .hero-section .hero-text-box .heading-primary{
+  font-size: 28px;
+ }
+ .hero-section .hero-text-box .hero-description{
+margin-bottom: 50px;
+ }
+ .hero-section .hero-img-box {
+  max-width: 540px;
+  margin-bottom: 60px;
+ }
 }
+@media (max-width: 370px){
+  .hero-section .hero-img-box{
+    max-width: 300px;
+  }
