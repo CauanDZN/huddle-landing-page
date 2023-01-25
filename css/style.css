@@ -160,16 +160,32 @@ max-width: 1240px;
 }
 .features-section .feature-box{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-  box-shadow: 3px 2px 12px 1px #cecacabb;
+  box-shadow: 3px 2px 28px 1px #ecebebbb;
   width: 100%;
   margin-bottom: 35px;
-  padding: 20px;
+  padding: 75px 30px 40px 100px;
+}
+.features-section .feature-box .feature-text{
+  max-width: 490px;
+  flex: 1;
+}
+.features-section .feature-box .feature-text h2{
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--main-color);
+  margin-bottom: 15px;
+}
+.features-section .feature-box .feature-text p{
+  font-size: 18px;
+  font-weight: 500;
+  color: #9ca0a1;
 }
 .features-section .feature-box .feature-img-box{
-  width: 400px;
+  flex: 1;
+  max-width: 400px;
 }
 @media (max-width: 72em) {
   html {
