@@ -249,6 +249,7 @@ padding: 0 20px;
   margin-right: 0;
   text-align: center;
  }
+
  .hero-section .hero-text-box .heading-primary{
   font-size: 28px;
  }
@@ -259,8 +260,33 @@ margin-bottom: 50px;
   max-width: 540px;
   margin-bottom: 60px;
  }
+ .features-section .feature-box{
+  flex-direction: column;
+  padding: 60px 30px;
+ }
+ .features-section .feature-box .feature-text{
+  order: 2;
+  text-align: center;
+ }
+ .features-section .feature-box .feature-img-box{
+  margin-bottom: 60px;
+ }
+ .features-section .cta-box{
+  padding: 50px 6px;
+ }
+ .features-section .cta-box h2{
+  font-size: 18px;
+ }
+ .features-section .cta-box .btn{
+  max-width: 230px;
+  padding: 15px 0;
+  font-size: 12px;
+ }
+  
 }
+
 @media (max-width: 370px){
   .hero-section .hero-img-box{
     max-width: 300px;
   }
+}
