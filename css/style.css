@@ -122,17 +122,17 @@ h2 {
   word-wrap: break-word;
   margin-bottom: 30px;
 }
-.hero-section .btn{
+.btn{
   background-color: #ff52bf;
   color:  #eee8e8;
   max-width: 280px;
   padding: 19px 0;
-  border-radius: 30px;
+  border-radius: 40px;
   text-align: center;
   font-size: 14px;
   font-weight: 600;
 }
-.hero-section .btn:hover{
+.btn:hover{
   color:#f3efef ;
   background-color: #fd99d8;
 }
@@ -186,6 +186,31 @@ max-width: 1240px;
 .features-section .feature-box .feature-img-box{
   flex: 1;
   max-width: 400px;
+}
+.features-section .cta-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px -2px 28px 1px #ecebebbb;
+  width: 100%;
+  max-width: 750px;
+  margin-top: 80px;
+  padding: 50px 0;
+  border-radius: 15px;
+}
+.features-section .cta-box h2{
+  font-size: 34px;
+  margin-bottom: 30px;
+  color: var(--main-color);
+
+}
+.features-section .cta-box .btn{
+  width: 100%;
+  max-width: 380px;
+  font-size: 18px;
+  padding: 24px 0;
+  color: #f3f1f1;
 }
 @media (max-width: 72em) {
   html {
